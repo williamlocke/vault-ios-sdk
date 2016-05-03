@@ -1,0 +1,20 @@
+PODS:
+  - ATNetworking (1.0.0)
+  - VaultSDK (0.0.1):
+    - ATNetworking
+
+DEPENDENCIES:
+  - ATNetworking
+  - VaultSDK (from `../`)
+
+EXTERNAL SOURCES:
+  VaultSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATNetworking: fa535fc13fc93dc383dc2dd6952db3f88967f70a
+  VaultSDK: a52d0b976528618abe848ac62cfd729aa1107362
+
+PODFILE CHECKSUM: b94d508da4c506613082ebfffaef4428ee7ad722
+
+COCOAPODS: 1.0.0.beta.6

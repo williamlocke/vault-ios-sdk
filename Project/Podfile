@@ -1,0 +1,12 @@
+platform :ios, 8.0
+target 'VaultSDK' do
+	pod 'VaultSDK', :path => '../'	
+	pod 'ATNetworking'
+end
+
+target 'VaultSDKTests' do
+	pod 'VaultSDK', :path => '../'
+	pod 'ATNetworking'
+end
+
+

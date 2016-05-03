@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "01CD904F1B0041A234D08481E12878AF1A814008",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "97E947BAA9000FF260CE88CE5CAC43B62B7EFFFE" : 0,
+    "01CD904F1B0041A234D08481E12878AF1A814008" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A96B5D79-9D4C-4218-A44A-105A6B1C9CA1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "97E947BAA9000FF260CE88CE5CAC43B62B7EFFFE" : "",
+    "01CD904F1B0041A234D08481E12878AF1A814008" : "vault-ios-sdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VaultSDK",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Project\/VaultSDK\/VaultSDK.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/williamlocke\/vault-ios-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "01CD904F1B0041A234D08481E12878AF1A814008"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/adtrade\/libAdtrade.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97E947BAA9000FF260CE88CE5CAC43B62B7EFFFE"
+    }
+  ]
+}

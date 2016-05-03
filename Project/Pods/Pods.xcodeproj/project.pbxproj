@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0262174E30F692D4995B80D5E0E6F316 /* ATDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FC97B7F3B45C6B2E8A3744E69C0AC6 /* ATDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16CD3935D71F2F9AA77C2606375F71F6 /* VaultSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = F26635F4C253AAAB9E8A0A9124712529 /* VaultSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38374150C6DA6907AEB90A75E57E99CE /* ATWebApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 18267BB7961E096ECD105C7D0C9C0C11 /* ATWebApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BFB8F0F73DEB0CA064E4E50E517177D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		5F3742B98E614A4BAAD2C7C6FBBCB077 /* ATHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 889286683F89BE6C0DCD74AC9B02155A /* ATHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A19DD76C80A0425FED479A5C60ECA44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		7174529BE36C080A1DF3EB97B336E196 /* ATWebApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E9EAFA34CF7E7AA53F1CC5BEB359EF /* ATWebApiResponse.m */; };
+		787E65CF8F82D3510B10A97D00F4447E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		7A0A87FC95966072922A421045B82780 /* ATNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E419250FBC94D472115C800E9E1F32 /* ATNetworking.m */; };
+		7DC6F00FEEA4DE1DBFD844063DFF66D5 /* VaultSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 717F9B95A59F0CBA42A2E3020DDB1DEB /* VaultSDK-dummy.m */; };
+		82B72FC3C7966017317BC7A3C64FAFE1 /* ATNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C3DC0AFF2C7182191E00E0C80EFC0C /* ATNetworking-dummy.m */; };
+		A08F38916A26B25E83E654144C66F6DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		B2413DAACAE896EF46049B43E141F478 /* ATDate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE754F077C8456F211A9B5E96B704A7F /* ATDate.m */; };
+		BDE4B2C414009C8019A18403201867E5 /* VaultSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 2183F1410D22DF6A3DA5B9FA70B65A8B /* VaultSDK.m */; };
+		C25E0938372E35610BC6136D0F01868E /* Pods-VaultSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C799412BB39E3C194B8BF771BC53592 /* Pods-VaultSDK-dummy.m */; };
+		D8673EBB0E5B6C3907D228B8AF4F34DE /* Pods-VaultSDKTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F7558DD826C95C60BAFED57B14925 /* Pods-VaultSDKTests-dummy.m */; };
+		DA20F5B9C2CDC443AAB159032B3D4AD1 /* ATNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E74CAD363309BE8FE8A8EA1AEBB14D /* ATNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2E5B320D058D396865762F492E263BF /* ATHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D54CBDE4B9ADCA3E7393DFBE422A7BB1 /* ATHTTPRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0FE8A234933B8BA274C65C378160473 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6366F35C2010974A01A79E1E7C6C5266;
+			remoteInfo = ATNetworking;
+		};
+		CAF21BCC15D3C7900173F616EF7C7FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1847971EF358CDFE0796815EEF27EDC9;
+			remoteInfo = VaultSDK;
+		};
+		E603B1DCBB0AEBB7765D8F7E5D03696E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6366F35C2010974A01A79E1E7C6C5266;
+			remoteInfo = ATNetworking;
+		};
+		FBE4FC0FB296CD18E420721382811E4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6366F35C2010974A01A79E1E7C6C5266;
+			remoteInfo = ATNetworking;
+		};
+		FD0F3283E8EF5883F30D72F8417AFA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1847971EF358CDFE0796815EEF27EDC9;
+			remoteInfo = VaultSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09E02717A139F6D33FCAD245C16D8AD5 /* VaultSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VaultSDK-prefix.pch"; sourceTree = "<group>"; };
+		0C799412BB39E3C194B8BF771BC53592 /* Pods-VaultSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VaultSDK-dummy.m"; sourceTree = "<group>"; };
+		1735FACD7EFF9C3A5B663DB83DA56E6F /* Pods-VaultSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VaultSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		18267BB7961E096ECD105C7D0C9C0C11 /* ATWebApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATWebApiResponse.h; path = Classes/ATNetworking/ATWebApiResponse.h; sourceTree = "<group>"; };
+		2183F1410D22DF6A3DA5B9FA70B65A8B /* VaultSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VaultSDK.m; sourceTree = "<group>"; };
+		29F4887CC602621C185E9E660F23D020 /* Pods-VaultSDK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaultSDK-frameworks.sh"; sourceTree = "<group>"; };
+		3356F4BE6DC4B370A89C26070C8B934D /* Pods-VaultSDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaultSDK-resources.sh"; sourceTree = "<group>"; };
+		33681E7588C9334F370A66541C99BD19 /* Pods-VaultSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaultSDK.release.xcconfig"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		50A4B89F8A6214770522E0211101EB00 /* Pods-VaultSDKTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VaultSDKTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5105A8091B50F77F3C7D9256EF091121 /* ATNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATNetworking-prefix.pch"; sourceTree = "<group>"; };
+		535200B1996C718C338D5E71E10F580B /* libATNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libATNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9BA0CEA5F544821F60C956AEBAC3CE /* ATNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATNetworking.xcconfig; sourceTree = "<group>"; };
+		612A3C84D2F7731969A91F4B2E65FF0B /* libPods-VaultSDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VaultSDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C3DC0AFF2C7182191E00E0C80EFC0C /* ATNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATNetworking-dummy.m"; sourceTree = "<group>"; };
+		70E90D7609231C62408A1AED2BA4F6F4 /* Pods-VaultSDKTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VaultSDKTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		717F9B95A59F0CBA42A2E3020DDB1DEB /* VaultSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VaultSDK-dummy.m"; sourceTree = "<group>"; };
+		76CDFF8756193B129DA1B5316769F107 /* Pods-VaultSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaultSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7933F2200B7CEB26D2EB5D88833FBD6A /* Pods-VaultSDKTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaultSDKTests-frameworks.sh"; sourceTree = "<group>"; };
+		889286683F89BE6C0DCD74AC9B02155A /* ATHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATHTTPRequest.h; path = Classes/ATNetworking/ATHTTPRequest.h; sourceTree = "<group>"; };
+		92162B540DC8F9AE36D6F04FFC26DCF1 /* Pods-VaultSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaultSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97FC97B7F3B45C6B2E8A3744E69C0AC6 /* ATDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATDate.h; path = Classes/ATNetworking/ATDate.h; sourceTree = "<group>"; };
+		AF36881EBF4988935305DC92346D119E /* Pods-VaultSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VaultSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B85A9083AA87FD5755D578EE5E678357 /* libVaultSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVaultSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AFCF2B45DC0F0D6ECC46D0BF2B2EF3 /* Pods-VaultSDKTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaultSDKTests-resources.sh"; sourceTree = "<group>"; };
+		CE754F077C8456F211A9B5E96B704A7F /* ATDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATDate.m; path = Classes/ATNetworking/ATDate.m; sourceTree = "<group>"; };
+		CF9F7558DD826C95C60BAFED57B14925 /* Pods-VaultSDKTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VaultSDKTests-dummy.m"; sourceTree = "<group>"; };
+		D0E74CAD363309BE8FE8A8EA1AEBB14D /* ATNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ATNetworking.h; path = Classes/ATNetworking.h; sourceTree = "<group>"; };
+		D54CBDE4B9ADCA3E7393DFBE422A7BB1 /* ATHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATHTTPRequest.m; path = Classes/ATNetworking/ATHTTPRequest.m; sourceTree = "<group>"; };
+		DACF8640DC1E546A6507902F4DD0DCC7 /* VaultSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VaultSDK.xcconfig; sourceTree = "<group>"; };
+		E727CB805C2010436CF135E33038D6C8 /* libPods-VaultSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VaultSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC7C381B84FE9A960AEF0326B0F18D4 /* Pods-VaultSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaultSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		F26635F4C253AAAB9E8A0A9124712529 /* VaultSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VaultSDK.h; sourceTree = "<group>"; };
+		F3E419250FBC94D472115C800E9E1F32 /* ATNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATNetworking.m; path = Classes/ATNetworking.m; sourceTree = "<group>"; };
+		F6E9EAFA34CF7E7AA53F1CC5BEB359EF /* ATWebApiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ATWebApiResponse.m; path = Classes/ATNetworking/ATWebApiResponse.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A043B744E8B9939013FC5FBEC231B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08F38916A26B25E83E654144C66F6DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		351F9D528C23FB4D4D38272B49AE2AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				787E65CF8F82D3510B10A97D00F4447E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFF9C16A88D9B58EFE22FB9A173225D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A19DD76C80A0425FED479A5C60ECA44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72F4CE3BCFAB5DBF2F299B6E09B637C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BFB8F0F73DEB0CA064E4E50E517177D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		189EAE4A1FC9A10226DF712924BD758B /* Pods-VaultSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				70E90D7609231C62408A1AED2BA4F6F4 /* Pods-VaultSDKTests-acknowledgements.markdown */,
+				50A4B89F8A6214770522E0211101EB00 /* Pods-VaultSDKTests-acknowledgements.plist */,
+				CF9F7558DD826C95C60BAFED57B14925 /* Pods-VaultSDKTests-dummy.m */,
+				7933F2200B7CEB26D2EB5D88833FBD6A /* Pods-VaultSDKTests-frameworks.sh */,
+				B8AFCF2B45DC0F0D6ECC46D0BF2B2EF3 /* Pods-VaultSDKTests-resources.sh */,
+				76CDFF8756193B129DA1B5316769F107 /* Pods-VaultSDKTests.debug.xcconfig */,
+				EBC7C381B84FE9A960AEF0326B0F18D4 /* Pods-VaultSDKTests.release.xcconfig */,
+			);
+			name = "Pods-VaultSDKTests";
+			path = "Target Support Files/Pods-VaultSDKTests";
+			sourceTree = "<group>";
+		};
+		1984B0D2465B802C21235B1FDB60CF41 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBF2251C105B1BCC5984DDD8BF7596DD /* VaultSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B171717079B133DA471AE3F56641B61 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DACF8640DC1E546A6507902F4DD0DCC7 /* VaultSDK.xcconfig */,
+				717F9B95A59F0CBA42A2E3020DDB1DEB /* VaultSDK-dummy.m */,
+				09E02717A139F6D33FCAD245C16D8AD5 /* VaultSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Project/Pods/Target Support Files/VaultSDK";
+			sourceTree = "<group>";
+		};
+		567FF3761AF91FE5783ACC8874107DC9 /* Pods-VaultSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AF36881EBF4988935305DC92346D119E /* Pods-VaultSDK-acknowledgements.markdown */,
+				1735FACD7EFF9C3A5B663DB83DA56E6F /* Pods-VaultSDK-acknowledgements.plist */,
+				0C799412BB39E3C194B8BF771BC53592 /* Pods-VaultSDK-dummy.m */,
+				29F4887CC602621C185E9E660F23D020 /* Pods-VaultSDK-frameworks.sh */,
+				3356F4BE6DC4B370A89C26070C8B934D /* Pods-VaultSDK-resources.sh */,
+				92162B540DC8F9AE36D6F04FFC26DCF1 /* Pods-VaultSDK.debug.xcconfig */,
+				33681E7588C9334F370A66541C99BD19 /* Pods-VaultSDK.release.xcconfig */,
+			);
+			name = "Pods-VaultSDK";
+			path = "Target Support Files/Pods-VaultSDK";
+			sourceTree = "<group>";
+		};
+		6AE83B6FFEA588BAF786DF240EE705CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFA4E770A0ADAA1F97B051E684EB58DE /* ATNetworking */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73179BCE91AD7182B986906AA94DEF1D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F26635F4C253AAAB9E8A0A9124712529 /* VaultSDK.h */,
+				2183F1410D22DF6A3DA5B9FA70B65A8B /* VaultSDK.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		75136D8BACC9729C3E8321F3A474B39A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D9BA0CEA5F544821F60C956AEBAC3CE /* ATNetworking.xcconfig */,
+				62C3DC0AFF2C7182191E00E0C80EFC0C /* ATNetworking-dummy.m */,
+				5105A8091B50F77F3C7D9256EF091121 /* ATNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ATNetworking";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1984B0D2465B802C21235B1FDB60CF41 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6AE83B6FFEA588BAF786DF240EE705CB /* Pods */,
+				F7E54F194C7B03018D50C189E139354F /* Products */,
+				B48064C7D1AB5C301F7D57488A04089E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AFA4E770A0ADAA1F97B051E684EB58DE /* ATNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				97FC97B7F3B45C6B2E8A3744E69C0AC6 /* ATDate.h */,
+				CE754F077C8456F211A9B5E96B704A7F /* ATDate.m */,
+				889286683F89BE6C0DCD74AC9B02155A /* ATHTTPRequest.h */,
+				D54CBDE4B9ADCA3E7393DFBE422A7BB1 /* ATHTTPRequest.m */,
+				D0E74CAD363309BE8FE8A8EA1AEBB14D /* ATNetworking.h */,
+				F3E419250FBC94D472115C800E9E1F32 /* ATNetworking.m */,
+				18267BB7961E096ECD105C7D0C9C0C11 /* ATWebApiResponse.h */,
+				F6E9EAFA34CF7E7AA53F1CC5BEB359EF /* ATWebApiResponse.m */,
+				75136D8BACC9729C3E8321F3A474B39A /* Support Files */,
+			);
+			path = ATNetworking;
+			sourceTree = "<group>";
+		};
+		B48064C7D1AB5C301F7D57488A04089E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				567FF3761AF91FE5783ACC8874107DC9 /* Pods-VaultSDK */,
+				189EAE4A1FC9A10226DF712924BD758B /* Pods-VaultSDKTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBF2251C105B1BCC5984DDD8BF7596DD /* VaultSDK */ = {
+			isa = PBXGroup;
+			children = (
+				73179BCE91AD7182B986906AA94DEF1D /* Classes */,
+				3B171717079B133DA471AE3F56641B61 /* Support Files */,
+			);
+			name = VaultSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F7E54F194C7B03018D50C189E139354F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				535200B1996C718C338D5E71E10F580B /* libATNetworking.a */,
+				E727CB805C2010436CF135E33038D6C8 /* libPods-VaultSDK.a */,
+				612A3C84D2F7731969A91F4B2E65FF0B /* libPods-VaultSDKTests.a */,
+				B85A9083AA87FD5755D578EE5E678357 /* libVaultSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		567269B02AD39ED1259F1CD1356567FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16CD3935D71F2F9AA77C2606375F71F6 /* VaultSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D478CCB7391BBE125B321E95C9FEA3AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0262174E30F692D4995B80D5E0E6F316 /* ATDate.h in Headers */,
+				5F3742B98E614A4BAAD2C7C6FBBCB077 /* ATHTTPRequest.h in Headers */,
+				DA20F5B9C2CDC443AAB159032B3D4AD1 /* ATNetworking.h in Headers */,
+				38374150C6DA6907AEB90A75E57E99CE /* ATWebApiResponse.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1847971EF358CDFE0796815EEF27EDC9 /* VaultSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F237A1CD77A21BFC6DB1A773D2334ADE /* Build configuration list for PBXNativeTarget "VaultSDK" */;
+			buildPhases = (
+				9D1A4FF13F47EFC45D9020D85CBED48C /* Sources */,
+				351F9D528C23FB4D4D38272B49AE2AE1 /* Frameworks */,
+				567269B02AD39ED1259F1CD1356567FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29B1FA60880EE7BF25333F24F138BCD9 /* PBXTargetDependency */,
+			);
+			name = VaultSDK;
+			productName = VaultSDK;
+			productReference = B85A9083AA87FD5755D578EE5E678357 /* libVaultSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125F14C0A6D19CC3419976B61ED2D7AB /* Build configuration list for PBXNativeTarget "ATNetworking" */;
+			buildPhases = (
+				EF192EC53029AF73E4365D9CD7C83AEC /* Sources */,
+				6EFF9C16A88D9B58EFE22FB9A173225D /* Frameworks */,
+				D478CCB7391BBE125B321E95C9FEA3AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATNetworking;
+			productName = ATNetworking;
+			productReference = 535200B1996C718C338D5E71E10F580B /* libATNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8DDCB6E740B1CD0CC05702C3A086AFA6 /* Pods-VaultSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7366F243AA05F6006447C8E6B0CD906 /* Build configuration list for PBXNativeTarget "Pods-VaultSDKTests" */;
+			buildPhases = (
+				73CA77D6FCC00A6481E0FFED9E5D2C01 /* Sources */,
+				2A043B744E8B9939013FC5FBEC231B3B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8D755855DAF8C25769550ED5F1ABDD5 /* PBXTargetDependency */,
+				1D5555BD0A628D94C23C193F1C44DDC8 /* PBXTargetDependency */,
+			);
+			name = "Pods-VaultSDKTests";
+			productName = "Pods-VaultSDKTests";
+			productReference = 612A3C84D2F7731969A91F4B2E65FF0B /* libPods-VaultSDKTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		97D26E32DD04F2280915100BAB371069 /* Pods-VaultSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F142949D4B8481C1714A7D254C84ECE /* Build configuration list for PBXNativeTarget "Pods-VaultSDK" */;
+			buildPhases = (
+				8269C0400C7439DD18188402443C0BD0 /* Sources */,
+				D72F4CE3BCFAB5DBF2F299B6E09B637C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B2C7066132B39260469FABAD827977 /* PBXTargetDependency */,
+				8E9F4D51F061A93C8F72E52A8A5B077D /* PBXTargetDependency */,
+			);
+			name = "Pods-VaultSDK";
+			productName = "Pods-VaultSDK";
+			productReference = E727CB805C2010436CF135E33038D6C8 /* libPods-VaultSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F7E54F194C7B03018D50C189E139354F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */,
+				97D26E32DD04F2280915100BAB371069 /* Pods-VaultSDK */,
+				8DDCB6E740B1CD0CC05702C3A086AFA6 /* Pods-VaultSDKTests */,
+				1847971EF358CDFE0796815EEF27EDC9 /* VaultSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73CA77D6FCC00A6481E0FFED9E5D2C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8673EBB0E5B6C3907D228B8AF4F34DE /* Pods-VaultSDKTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8269C0400C7439DD18188402443C0BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25E0938372E35610BC6136D0F01868E /* Pods-VaultSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1A4FF13F47EFC45D9020D85CBED48C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC6F00FEEA4DE1DBFD844063DFF66D5 /* VaultSDK-dummy.m in Sources */,
+				BDE4B2C414009C8019A18403201867E5 /* VaultSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF192EC53029AF73E4365D9CD7C83AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2413DAACAE896EF46049B43E141F478 /* ATDate.m in Sources */,
+				F2E5B320D058D396865762F492E263BF /* ATHTTPRequest.m in Sources */,
+				82B72FC3C7966017317BC7A3C64FAFE1 /* ATNetworking-dummy.m in Sources */,
+				7A0A87FC95966072922A421045B82780 /* ATNetworking.m in Sources */,
+				7174529BE36C080A1DF3EB97B336E196 /* ATWebApiResponse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05B2C7066132B39260469FABAD827977 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATNetworking;
+			target = 6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */;
+			targetProxy = E603B1DCBB0AEBB7765D8F7E5D03696E /* PBXContainerItemProxy */;
+		};
+		1D5555BD0A628D94C23C193F1C44DDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VaultSDK;
+			target = 1847971EF358CDFE0796815EEF27EDC9 /* VaultSDK */;
+			targetProxy = CAF21BCC15D3C7900173F616EF7C7FE7 /* PBXContainerItemProxy */;
+		};
+		29B1FA60880EE7BF25333F24F138BCD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATNetworking;
+			target = 6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */;
+			targetProxy = B0FE8A234933B8BA274C65C378160473 /* PBXContainerItemProxy */;
+		};
+		8E9F4D51F061A93C8F72E52A8A5B077D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VaultSDK;
+			target = 1847971EF358CDFE0796815EEF27EDC9 /* VaultSDK */;
+			targetProxy = FD0F3283E8EF5883F30D72F8417AFA60 /* PBXContainerItemProxy */;
+		};
+		D8D755855DAF8C25769550ED5F1ABDD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATNetworking;
+			target = 6366F35C2010974A01A79E1E7C6C5266 /* ATNetworking */;
+			targetProxy = FBE4FC0FB296CD18E420721382811E4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F0533708B9C2F9F6F38121003FAC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CDFF8756193B129DA1B5316769F107 /* Pods-VaultSDKTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		14F8827BF59CB1E937702225666E894A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACF8640DC1E546A6507902F4DD0DCC7 /* VaultSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VaultSDK/VaultSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1A3A0D102F977053E4D3AD426CC302C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9BA0CEA5F544821F60C956AEBAC3CE /* ATNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ATNetworking/ATNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		226E8BA643554E547524ACC25999847E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9BA0CEA5F544821F60C956AEBAC3CE /* ATNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ATNetworking/ATNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		52169CB2DC374AB6CBAA782542F68751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DACF8640DC1E546A6507902F4DD0DCC7 /* VaultSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VaultSDK/VaultSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7658E18B4F8461B6E227C9C8FE7E918B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33681E7588C9334F370A66541C99BD19 /* Pods-VaultSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A9E16DA43118AAFC474258ED27B45480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC7C381B84FE9A960AEF0326B0F18D4 /* Pods-VaultSDKTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC760B7943C1821555E3EAB3360F3A85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92162B540DC8F9AE36D6F04FFC26DCF1 /* Pods-VaultSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		125F14C0A6D19CC3419976B61ED2D7AB /* Build configuration list for PBXNativeTarget "ATNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				226E8BA643554E547524ACC25999847E /* Debug */,
+				1A3A0D102F977053E4D3AD426CC302C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F142949D4B8481C1714A7D254C84ECE /* Build configuration list for PBXNativeTarget "Pods-VaultSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC760B7943C1821555E3EAB3360F3A85 /* Debug */,
+				7658E18B4F8461B6E227C9C8FE7E918B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7366F243AA05F6006447C8E6B0CD906 /* Build configuration list for PBXNativeTarget "Pods-VaultSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F0533708B9C2F9F6F38121003FAC5D /* Debug */,
+				A9E16DA43118AAFC474258ED27B45480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F237A1CD77A21BFC6DB1A773D2334ADE /* Build configuration list for PBXNativeTarget "VaultSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F8827BF59CB1E937702225666E894A /* Debug */,
+				52169CB2DC374AB6CBAA782542F68751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

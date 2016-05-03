@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ATNetworking" "${PODS_ROOT}/Headers/Public/VaultSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "$CONFIGURATION_BUILD_DIR/ATNetworking" "$CONFIGURATION_BUILD_DIR/VaultSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ATNetworking" -isystem "${PODS_ROOT}/Headers/Public/VaultSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ATNetworking" -l"VaultSDK"
+PODS_ROOT = ${SRCROOT}/Pods

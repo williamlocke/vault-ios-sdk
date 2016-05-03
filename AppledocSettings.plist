@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>--company-id</key>
+	<string>com.williamlocke</string>
+	<key>--output</key>
+	<string>logs/appledoc/</string>
+	<key>--ignore</key>
+	<array>
+		<string>Project</string>
+	</array>
+	<key>--input</key>
+	<array>
+		<string>Classes</string>
+	</array>
+	<key>--logformat</key>
+	<integer>1</integer>
+	<key>--print-settings</key>
+	<true/>
+	<key>--project-company</key>
+	<string>William Locke</string>
+	<key>--project-name</key>
+	<string>Vault SDK</string>
+	<key>--repeat-first-par</key>
+	<false/>
+	<key>--clean-output</key>
+	<true/>
+	<key>--verbose</key>
+	<integer>3</integer>
+</dict>
+</plist>

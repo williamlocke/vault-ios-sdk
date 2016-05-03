@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F7D3421CD93E8C00375394 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F7D3411CD93E8C00375394 /* main.m */; };
+		01F7D3451CD93E8C00375394 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F7D3441CD93E8C00375394 /* AppDelegate.m */; };
+		01F7D3481CD93E8C00375394 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F7D3471CD93E8C00375394 /* ViewController.m */; };
+		01F7D34B1CD93E8C00375394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F7D3491CD93E8C00375394 /* Main.storyboard */; };
+		01F7D34D1CD93E8C00375394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01F7D34C1CD93E8C00375394 /* Assets.xcassets */; };
+		01F7D3501CD93E8C00375394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01F7D34E1CD93E8C00375394 /* LaunchScreen.storyboard */; };
+		01F7D35B1CD93E8D00375394 /* VaultSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F7D35A1CD93E8D00375394 /* VaultSDKTests.m */; };
+		01F7D3661CD93E8D00375394 /* VaultSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01F7D3651CD93E8D00375394 /* VaultSDKUITests.m */; };
+		5000A3AFA252CC6AB892825B /* libPods-VaultSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C298A72AB95F6AB78D7BEA /* libPods-VaultSDK.a */; };
+		D9E638239DC7FA9ED4B210B7 /* libPods-VaultSDKTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D9D6955900144D97FD1B43 /* libPods-VaultSDKTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01F7D3571CD93E8D00375394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F7D3351CD93E8C00375394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F7D33C1CD93E8C00375394;
+			remoteInfo = VaultSDK;
+		};
+		01F7D3621CD93E8D00375394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01F7D3351CD93E8C00375394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01F7D33C1CD93E8C00375394;
+			remoteInfo = VaultSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F7D33D1CD93E8C00375394 /* VaultSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaultSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F7D3411CD93E8C00375394 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01F7D3431CD93E8C00375394 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01F7D3441CD93E8C00375394 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01F7D3461CD93E8C00375394 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01F7D3471CD93E8C00375394 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01F7D34A1CD93E8C00375394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01F7D34C1CD93E8C00375394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01F7D34F1CD93E8C00375394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01F7D3511CD93E8C00375394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F7D3561CD93E8D00375394 /* VaultSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaultSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F7D35A1CD93E8D00375394 /* VaultSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaultSDKTests.m; sourceTree = "<group>"; };
+		01F7D35C1CD93E8D00375394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01F7D3611CD93E8D00375394 /* VaultSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaultSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F7D3651CD93E8D00375394 /* VaultSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaultSDKUITests.m; sourceTree = "<group>"; };
+		01F7D3671CD93E8D00375394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15E7187B349CF29F3F4D5D7A /* Pods-VaultSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaultSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaultSDK/Pods-VaultSDK.release.xcconfig"; sourceTree = "<group>"; };
+		2E968695BF8BC8F32173CF74 /* Pods-VaultSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaultSDKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaultSDKTests/Pods-VaultSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		4484D9DF850697077957D414 /* Pods-VaultSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaultSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VaultSDK/Pods-VaultSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		63D9D6955900144D97FD1B43 /* libPods-VaultSDKTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VaultSDKTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F68A12E15ACD5404B54B8D8 /* Pods-VaultSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaultSDKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VaultSDKTests/Pods-VaultSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C298A72AB95F6AB78D7BEA /* libPods-VaultSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VaultSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01F7D33A1CD93E8C00375394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5000A3AFA252CC6AB892825B /* libPods-VaultSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F7D3531CD93E8D00375394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9E638239DC7FA9ED4B210B7 /* libPods-VaultSDKTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F7D35E1CD93E8D00375394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F7D3341CD93E8C00375394 = {
+			isa = PBXGroup;
+			children = (
+				01F7D33F1CD93E8C00375394 /* VaultSDK */,
+				01F7D3591CD93E8D00375394 /* VaultSDKTests */,
+				01F7D3641CD93E8D00375394 /* VaultSDKUITests */,
+				01F7D33E1CD93E8C00375394 /* Products */,
+				FB21D0D44DE615FE887E1A7B /* Pods */,
+				D8A514062CFF924DC7C395FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01F7D33E1CD93E8C00375394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01F7D33D1CD93E8C00375394 /* VaultSDK.app */,
+				01F7D3561CD93E8D00375394 /* VaultSDKTests.xctest */,
+				01F7D3611CD93E8D00375394 /* VaultSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01F7D33F1CD93E8C00375394 /* VaultSDK */ = {
+			isa = PBXGroup;
+			children = (
+				01F7D3431CD93E8C00375394 /* AppDelegate.h */,
+				01F7D3441CD93E8C00375394 /* AppDelegate.m */,
+				01F7D3461CD93E8C00375394 /* ViewController.h */,
+				01F7D3471CD93E8C00375394 /* ViewController.m */,
+				01F7D3491CD93E8C00375394 /* Main.storyboard */,
+				01F7D34C1CD93E8C00375394 /* Assets.xcassets */,
+				01F7D34E1CD93E8C00375394 /* LaunchScreen.storyboard */,
+				01F7D3511CD93E8C00375394 /* Info.plist */,
+				01F7D3401CD93E8C00375394 /* Supporting Files */,
+			);
+			path = VaultSDK;
+			sourceTree = "<group>";
+		};
+		01F7D3401CD93E8C00375394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01F7D3411CD93E8C00375394 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01F7D3591CD93E8D00375394 /* VaultSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				01F7D35A1CD93E8D00375394 /* VaultSDKTests.m */,
+				01F7D35C1CD93E8D00375394 /* Info.plist */,
+			);
+			path = VaultSDKTests;
+			sourceTree = "<group>";
+		};
+		01F7D3641CD93E8D00375394 /* VaultSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01F7D3651CD93E8D00375394 /* VaultSDKUITests.m */,
+				01F7D3671CD93E8D00375394 /* Info.plist */,
+			);
+			path = VaultSDKUITests;
+			sourceTree = "<group>";
+		};
+		D8A514062CFF924DC7C395FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5C298A72AB95F6AB78D7BEA /* libPods-VaultSDK.a */,
+				63D9D6955900144D97FD1B43 /* libPods-VaultSDKTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB21D0D44DE615FE887E1A7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4484D9DF850697077957D414 /* Pods-VaultSDK.debug.xcconfig */,
+				15E7187B349CF29F3F4D5D7A /* Pods-VaultSDK.release.xcconfig */,
+				9F68A12E15ACD5404B54B8D8 /* Pods-VaultSDKTests.debug.xcconfig */,
+				2E968695BF8BC8F32173CF74 /* Pods-VaultSDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01F7D33C1CD93E8C00375394 /* VaultSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F7D36A1CD93E8D00375394 /* Build configuration list for PBXNativeTarget "VaultSDK" */;
+			buildPhases = (
+				3C55E7FFB22D47DD37480C5D /* 📦 Check Pods Manifest.lock */,
+				01F7D3391CD93E8C00375394 /* Sources */,
+				01F7D33A1CD93E8C00375394 /* Frameworks */,
+				01F7D33B1CD93E8C00375394 /* Resources */,
+				37495A4F4F231CAB77D2CBC9 /* 📦 Embed Pods Frameworks */,
+				822EAD6594B2787CCB8AF1F4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaultSDK;
+			productName = VaultSDK;
+			productReference = 01F7D33D1CD93E8C00375394 /* VaultSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01F7D3551CD93E8D00375394 /* VaultSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F7D36D1CD93E8D00375394 /* Build configuration list for PBXNativeTarget "VaultSDKTests" */;
+			buildPhases = (
+				D8F4A87DD4BEDAE099ABC9AD /* 📦 Check Pods Manifest.lock */,
+				01F7D3521CD93E8D00375394 /* Sources */,
+				01F7D3531CD93E8D00375394 /* Frameworks */,
+				01F7D3541CD93E8D00375394 /* Resources */,
+				F38E01F2655CB0CD07A2B3DE /* 📦 Embed Pods Frameworks */,
+				E46B810083BFBAC8BB7EAAAD /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F7D3581CD93E8D00375394 /* PBXTargetDependency */,
+			);
+			name = VaultSDKTests;
+			productName = VaultSDKTests;
+			productReference = 01F7D3561CD93E8D00375394 /* VaultSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01F7D3601CD93E8D00375394 /* VaultSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01F7D3701CD93E8D00375394 /* Build configuration list for PBXNativeTarget "VaultSDKUITests" */;
+			buildPhases = (
+				01F7D35D1CD93E8D00375394 /* Sources */,
+				01F7D35E1CD93E8D00375394 /* Frameworks */,
+				01F7D35F1CD93E8D00375394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01F7D3631CD93E8D00375394 /* PBXTargetDependency */,
+			);
+			name = VaultSDKUITests;
+			productName = VaultSDKUITests;
+			productReference = 01F7D3611CD93E8D00375394 /* VaultSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01F7D3351CD93E8C00375394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "William Locke";
+				TargetAttributes = {
+					01F7D33C1CD93E8C00375394 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					01F7D3551CD93E8D00375394 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01F7D33C1CD93E8C00375394;
+					};
+					01F7D3601CD93E8D00375394 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 01F7D33C1CD93E8C00375394;
+					};
+				};
+			};
+			buildConfigurationList = 01F7D3381CD93E8C00375394 /* Build configuration list for PBXProject "VaultSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01F7D3341CD93E8C00375394;
+			productRefGroup = 01F7D33E1CD93E8C00375394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01F7D33C1CD93E8C00375394 /* VaultSDK */,
+				01F7D3551CD93E8D00375394 /* VaultSDKTests */,
+				01F7D3601CD93E8D00375394 /* VaultSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01F7D33B1CD93E8C00375394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F7D3501CD93E8C00375394 /* LaunchScreen.storyboard in Resources */,
+				01F7D34D1CD93E8C00375394 /* Assets.xcassets in Resources */,
+				01F7D34B1CD93E8C00375394 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F7D3541CD93E8D00375394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F7D35F1CD93E8D00375394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37495A4F4F231CAB77D2CBC9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaultSDK/Pods-VaultSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C55E7FFB22D47DD37480C5D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		822EAD6594B2787CCB8AF1F4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaultSDK/Pods-VaultSDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8F4A87DD4BEDAE099ABC9AD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E46B810083BFBAC8BB7EAAAD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaultSDKTests/Pods-VaultSDKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F38E01F2655CB0CD07A2B3DE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaultSDKTests/Pods-VaultSDKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F7D3391CD93E8C00375394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F7D3481CD93E8C00375394 /* ViewController.m in Sources */,
+				01F7D3451CD93E8C00375394 /* AppDelegate.m in Sources */,
+				01F7D3421CD93E8C00375394 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F7D3521CD93E8D00375394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F7D35B1CD93E8D00375394 /* VaultSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01F7D35D1CD93E8D00375394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F7D3661CD93E8D00375394 /* VaultSDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01F7D3581CD93E8D00375394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F7D33C1CD93E8C00375394 /* VaultSDK */;
+			targetProxy = 01F7D3571CD93E8D00375394 /* PBXContainerItemProxy */;
+		};
+		01F7D3631CD93E8D00375394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01F7D33C1CD93E8C00375394 /* VaultSDK */;
+			targetProxy = 01F7D3621CD93E8D00375394 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01F7D3491CD93E8C00375394 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F7D34A1CD93E8C00375394 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01F7D34E1CD93E8C00375394 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01F7D34F1CD93E8C00375394 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01F7D3681CD93E8D00375394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01F7D3691CD93E8D00375394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01F7D36B1CD93E8D00375394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4484D9DF850697077957D414 /* Pods-VaultSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VaultSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "william-locke.VaultSDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01F7D36C1CD93E8D00375394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E7187B349CF29F3F4D5D7A /* Pods-VaultSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VaultSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "william-locke.VaultSDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01F7D36E1CD93E8D00375394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F68A12E15ACD5404B54B8D8 /* Pods-VaultSDKTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VaultSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "william-locke.VaultSDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaultSDK.app/VaultSDK";
+			};
+			name = Debug;
+		};
+		01F7D36F1CD93E8D00375394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E968695BF8BC8F32173CF74 /* Pods-VaultSDKTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VaultSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "william-locke.VaultSDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaultSDK.app/VaultSDK";
+			};
+			name = Release;
+		};
+		01F7D3711CD93E8D00375394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VaultSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "william-locke.VaultSDKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VaultSDK;
+			};
+			name = Debug;
+		};
+		01F7D3721CD93E8D00375394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VaultSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "william-locke.VaultSDKUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VaultSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01F7D3381CD93E8C00375394 /* Build configuration list for PBXProject "VaultSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F7D3681CD93E8D00375394 /* Debug */,
+				01F7D3691CD93E8D00375394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F7D36A1CD93E8D00375394 /* Build configuration list for PBXNativeTarget "VaultSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F7D36B1CD93E8D00375394 /* Debug */,
+				01F7D36C1CD93E8D00375394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F7D36D1CD93E8D00375394 /* Build configuration list for PBXNativeTarget "VaultSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F7D36E1CD93E8D00375394 /* Debug */,
+				01F7D36F1CD93E8D00375394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01F7D3701CD93E8D00375394 /* Build configuration list for PBXNativeTarget "VaultSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F7D3711CD93E8D00375394 /* Debug */,
+				01F7D3721CD93E8D00375394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01F7D3351CD93E8C00375394 /* Project object */;
+}
