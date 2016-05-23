@@ -11,9 +11,6 @@
 @interface ViewController : UIViewController
 
 @property (nonatomic) IBOutlet UITextField *creditCardNumberTextField;
-@property (nonatomic) IBOutlet UITextField *expirationMonthTextField;
-@property (nonatomic) IBOutlet UITextField *expirationYearTextField;
-@property (nonatomic) IBOutlet UITextField *securityCodeTextField;
 
 @end
 

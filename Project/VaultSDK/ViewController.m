@@ -26,13 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+
 -(IBAction)tokenizeButtonPressed:(id)sender{
-    NSDictionary *params = @{@"card_number":self.creditCardNumberTextField.text ? self.creditCardNumberTextField.text : @"4111111111111111",
-                             @"expiration_month":self.expirationMonthTextField.text ? self.expirationMonthTextField.text :  @"12",
-                             @"expiration_year":self.expirationYearTextField.text ? self.expirationYearTextField.text : @"2020",
-                             @"security_code":self.securityCodeTextField.text ? self.securityCodeTextField.text : @"2020"
-                             };
-    [[VaultSDK sharedInstance] createTokenWithCard:params withSucess:^(NSDictionary * _Nonnull item) {
+    NSDictionary *params = @{@"raw": ![self.creditCardNumberTextField.text isEqualToString:@""] ? self.creditCardNumberTextField.text : @"4111111111111111" };
+    
+    [[VaultSDK sharedInstance] createTokenWithCreditCardNumber:params withSucess:^(NSDictionary * _Nonnull item) {
         dispatch_async(dispatch_get_main_queue(), ^{
             [self showSuccess];
         });

@@ -42,7 +42,7 @@
 - (id)init{
     self = [super init];
     if (self) {
-        [[ATNetworking sharedInstance] setBaseUrl:@"https://sandbox.verygoodproxy.com"];
+        [[ATNetworking sharedInstance] setBaseUrl:@"https://sandbox.verygoodvault.com"];
     }
     return self;
 }
@@ -53,7 +53,7 @@
 
 #pragma mark ATNetworking
 -(void)requestURL:(NSString *)url
-       withParams:(NSMutableDictionary *)params
+       withParams:(NSDictionary *)params
        httpMethod:(NSString *)httpMethod
           headers:(NSMutableDictionary *)headers
 completionHandler:(ATWebApiResponseHandler)completionHandler{
@@ -69,8 +69,8 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
 }
 
 #pragma mark Tokens
--(void)createTokenWithCard:(NSDictionary *)creditCard withSucess:(nullable void (^ )(NSDictionary *_Nonnull item))success failure:(nullable void (^ )(NSError *_Nonnull error))failure{
-    [self requestURL:@"/cards" withParams:creditCard httpMethod:@"POST" headers:nil completionHandler:^(NSDictionary *item, NSArray *items, NSError *error, NSDictionary *errorDictionary, NSURLResponse *response, NSDictionary *data) {
+-(void)createTokenWithCreditCardNumber:(NSDictionary *)params withSucess:(nullable void (^ )(NSDictionary *_Nonnull item))success failure:(nullable void (^ )(NSError *_Nonnull error))failure{
+    [self requestURL:@"/tokens" withParams:params httpMethod:@"POST" headers:nil completionHandler:^(NSDictionary *item, NSArray *items, NSError *error, NSDictionary *errorDictionary, NSURLResponse *response, NSDictionary *data) {
         if (item) {
             success(item);
         }else{
@@ -82,7 +82,7 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
 #pragma mark Default parameters
 -(NSMutableDictionary *)defaultHeaders{
     NSMutableDictionary *headers =  [[NSMutableDictionary alloc] initWithDictionary:@{}];
-    [headers setValue:@"application/vnd.json+api" forKey:@"Content-Type"];
+    [headers setValue:@"application/json" forKey:@"Content-Type"];
     return headers;
 }
 

@@ -36,11 +36,11 @@
 ///---------------------------------------------------------------------------------------
 /** Create token for credit card
  
- @param creditCard A dictionary representing a credit card. Must include 'card_number', 'expiration_month', 'expiration_year', 'security_code'
- @param success Block passes back dictionary object representing an app. See SDK docs for dictionary structure.
+ @param creditCard A dictionary representing a credit card. Must include 'raw':'4242424242424242'
+ @param success Block passes back dictionary object representing a token. See SDK docs for dictionary structure.
  @param failure Block passes back `NSError` object describing error that occurred. See userInfo[NSLocalizedDescriptionKey] for description of error.
  */
--(void)createTokenWithCard:(NSDictionary *)creditCard withSucess:(nullable void (^ )(NSDictionary *_Nonnull item))success failure:(nullable void (^ )(NSError *_Nonnull error))failure;
+-(void)createTokenWithCreditCardNumber:(nonnull NSDictionary *)creditCard withSucess:(nullable void (^ )(NSDictionary *_Nonnull item))success failure:(nullable void (^ )(NSError *_Nonnull error))failure;
 
 
 @end
