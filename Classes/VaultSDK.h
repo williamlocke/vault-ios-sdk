@@ -22,14 +22,19 @@
 // THE SOFTWARE.
 
 #import <UIKit/UIKit.h>
-
 @class ATHTTPRequest;
+
+typedef enum : NSUInteger {
+    VaultSDKEnvironmentSandbox,
+    VaultSDKEnvironmentLive,
+} VaultSDKEnvironment;
 
 @interface VaultSDK : NSObject
 
 +(nonnull VaultSDK *)sharedInstance;
 
 -(void)setServer:(nonnull NSString *)serverURL;
+-(void)setEnvironment:(VaultSDKEnvironment)environment;
 
 ///---------------------------------------------------------------------------------------
 /// @name Tokens

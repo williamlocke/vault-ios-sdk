@@ -42,9 +42,20 @@
 - (id)init{
     self = [super init];
     if (self) {
-        [[ATNetworking sharedInstance] setBaseUrl:@"https://sandbox.verygoodvault.com"];
+        [[ATNetworking sharedInstance] setBaseUrl:@"https://api.verygoodvault.com"];
     }
     return self;
+}
+
+-(void)setEnvironment:(VaultSDKEnvironment)environment{
+    switch (environment) {
+        case VaultSDKEnvironmentSandbox:
+            [[ATNetworking sharedInstance] setBaseUrl:@"https://sandbox.verygoodvault.com"];
+            break;
+        default:
+            [[ATNetworking sharedInstance] setBaseUrl:@"https://api.verygoodvault.com"];
+            break;
+    }
 }
 
 -(void)setServer:(NSString *)serverURL{
