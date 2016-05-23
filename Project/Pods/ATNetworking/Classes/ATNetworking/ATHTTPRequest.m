@@ -239,12 +239,13 @@
     }
 
     NSString *userAgent = [@"" stringByAppendingFormat:@"%@ %@ (%@; %@ %@; %@)",
-                 [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"],
-                 [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"],
-                 [[UIDevice currentDevice] model],
-                 [[UIDevice currentDevice] systemName],
-                 [[UIDevice currentDevice] systemVersion],
-                 [[NSLocale currentLocale] localeIdentifier]];
+                           [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"],
+                           [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"],
+                           [[UIDevice currentDevice] model],
+                           [[UIDevice currentDevice] systemName],
+                           [[UIDevice currentDevice] systemVersion],
+                           [[NSLocale currentLocale] localeIdentifier]];
+    
     [_request addValue:userAgent forHTTPHeaderField:@"User-Agent"];
     
     if(httpAuthenticationKey){
@@ -254,10 +255,12 @@
     if(headerFields && ([headerFields isKindOfClass:[NSMutableDictionary class]] || [headerFields isKindOfClass:[NSDictionary class]])){
         for(NSString *key in headerFields){
             NSString *value = [headerFields valueForKey:key];
-            [_request addValue:value forHTTPHeaderField:key];
+            if (!_request.allHTTPHeaderFields[key]) {
+                [_request addValue:value forHTTPHeaderField:key];
+            }
         }
     }
-
+    
     NSURLSessionDataTask *dataTask = [[NSURLSession sharedSession] dataTaskWithRequest:_request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         completionHandler(response, data, error);
     }];

@@ -105,7 +105,6 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
         url = [_baseUrl stringByAppendingFormat:@"%@%@", url, self.serializationFormat];
     }
     
-    NSLog(@"url: %@", url);
     ATHTTPRequest *httpRequest = [[ATHTTPRequest alloc] init];
     if (!_httpRequests) {
         _httpRequests = [[NSMutableArray alloc] init];
