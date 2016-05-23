@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.description  = "SDK for credit card tokenization via Vault "
 
-  s.homepage     = "https://github.com/william/vault-ios-sdk"
+  s.homepage     = "https://github.com/williamlocke/vault-ios-sdk"
 
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
 

@@ -31,4 +31,4 @@ Usage
 Documentation
 -------------
 
-[Apple Docs](http://williamlocke.github.io/vault-ios-api/logs/appledoc/html/Classes/VaultSDK.html)
+[Apple Docs](http://williamlocke.github.io/vault-ios-sdk/logs/appledoc/html/Classes/VaultSDK.html)
