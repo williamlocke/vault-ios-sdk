@@ -23,7 +23,7 @@
 #import "ATNetworking.h"
 
 @interface VaultSDK(){
-
+    NSString *_publishableKey;
 }
 
 @end
@@ -93,6 +93,14 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
 #pragma mark Default parameters
 -(NSMutableDictionary *)defaultHeaders{
     NSMutableDictionary *headers =  [[NSMutableDictionary alloc] initWithDictionary:@{}];
+    // NB: vault adopts using publishing token (e.g. vault_live_AbCdEfG..) of sorts as a username with
+    // empty string password sent via HTTP Basic Authentication.
+    NSString *username = _publishableKey;
+    NSString *password = @"";
+    NSString *authenticationString = [NSString stringWithFormat:@"%@:%@", username, password];
+    NSData *authenticationData = [authenticationString dataUsingEncoding:NSASCIIStringEncoding];
+    NSString *authenticationValue = [authenticationData base64Encoding];
+    [headers setValue:[NSString stringWithFormat:@"Basic %@", authenticationValue] forKey:@"Authorization"];
     [headers setValue:@"application/json" forKey:@"Content-Type"];
     return headers;
 }

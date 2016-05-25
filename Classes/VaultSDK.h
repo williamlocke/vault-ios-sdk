@@ -36,6 +36,9 @@ typedef enum : NSUInteger {
 -(void)setServer:(nonnull NSString *)serverURL;
 -(void)setEnvironment:(VaultSDKEnvironment)environment;
 
+-(void)setPublishableKey:(NSString *)publishableKey;
+
+
 ///---------------------------------------------------------------------------------------
 /// @name Tokens
 ///---------------------------------------------------------------------------------------
