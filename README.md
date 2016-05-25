@@ -9,6 +9,14 @@ Usage
 #import "VaultSDK.h"
 ```
 
+#### configure
+
+```objective-c
+[[VaultSDK sharedInstance] setPublishableKey:@"vault_live_AbCdEfGhIjKLMnOpqrS"];
+```
+
+#### Create token
+
 ```objective-c
 
     NSDictionary *params = @{@"raw": ![self.creditCardNumberTextField.text isEqualToString:@""] ? self.creditCardNumberTextField.text : @"4111111111111111" };
