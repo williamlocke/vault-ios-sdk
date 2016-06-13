@@ -105,5 +105,9 @@ completionHandler:(ATWebApiResponseHandler)completionHandler{
     return headers;
 }
 
+-(void)setPublishableKey:(NSString *)publishableKey{
+    _publishableKey = publishableKey;
+}
+
 @end
 

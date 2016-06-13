@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [[VaultSDK sharedInstance] setEnvironment:VaultSDKEnvironmentSandbox];
+    //[[VaultSDK sharedInstance] setEnvironment:VaultSDKEnvironmentSandbox];
     [[VaultSDK sharedInstance] setPublishableKey:@"vault_live_AbCdEFgHIjklMNop"];
     
 }
